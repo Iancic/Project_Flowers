@@ -14,6 +14,6 @@ public class Money_Counter : MonoBehaviour
 
     void Update()
     {
-        text.SetText("Money: " + Master_Tool.money.ToString());
+        text.SetText("$ " + Master_Tool.Instance.money.ToString());
     }
 }
